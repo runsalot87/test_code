@@ -1,0 +1,21 @@
+{
+  "version": 8,
+  "name": "My raster",
+  "sources": {
+    "raster-source-1": {
+      "type": "raster",
+      "tiles": [
+        "https://osm-{s}.gs.mil/tiles/default/{z}/{x}/{y}.png"
+      ],
+      "scheme": "tms"
+    }
+  },
+  "layers": [
+    {
+      "id": "raster-layer-1",
+      "type": "raster",
+      "source": "raster-source-1"
+    }
+  ],
+  "id": "my-raster"
+}
